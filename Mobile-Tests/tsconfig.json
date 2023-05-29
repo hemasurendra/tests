@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "allowJs": true,
+        "outDir": "./dist",  
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/cucumber-framework",
+            "@wdio/appium-service"
+        ],
+        "target": "ES2018",
+        "typeRoots": ["node_modules/@types"],
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
